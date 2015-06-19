@@ -19,7 +19,8 @@ public class ColleagueDao
 
    public void create(Colleague entity)
    {
-      em.persist(entity);
+      //[BR1] add comment BR1
+	  em.persist(entity);
    }
 
    public void deleteById(Long id)
