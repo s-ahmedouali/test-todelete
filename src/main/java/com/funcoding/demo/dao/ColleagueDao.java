@@ -19,6 +19,7 @@ public class ColleagueDao
 
    public void create(Colleague entity)
    {
+	  //[BR2] add comment
       em.persist(entity);
    }
 
